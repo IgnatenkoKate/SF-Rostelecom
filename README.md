@@ -32,11 +32,11 @@
 <li> Chrome DevTools для анализа страниц и формирования локаторов </li>
 </ul>
 
-<h2> settings.py </h2> - данные для тестовых сценариев
-conftest.py - файл с фикстурами
-requiments.txt - файл с зависимостями. Установить все внешние зависимости командой pip install -r requirements.txt
+<p> settings.py - данные для тестовых сценариев </p> 
+<p> conftest.py - файл с фикстурами </p> 
+<p> requiments.txt - файл с зависимостями. Установить все внешние зависимости командой pip install -r requirements.txt 
 
-В директории tests находится файл testsRosTel.py, в котором располагаются тесты
+<p> В директории tests находится файл testsRosTel.py, в котором располагаются тесты </p> 
 
 Запуск тестов:
 Запустить тесты можно командой:  python -m pytest -v --driver Chrome --driver-path chromedriver.exe tests/testsRosTel.py
